@@ -1,0 +1,16 @@
+#game {
+  margin-top: 30px;
+}
+
+.cell {
+  height: 150px;
+  width: 150px;
+}
+
+.cell:nth-child(1), .cell:nth-child(2) {
+  border-right: 2px solid #000;
+}
+
+.gameRow:nth-child(1), .gameRow:nth-child(2) {
+  border-bottom: 2px solid #000;
+}
